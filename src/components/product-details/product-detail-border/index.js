@@ -1,4 +1,6 @@
 import React from "react";
+import ProductReport from "../product-report";
+
 const DetailBorder = () => {
   return (
     <div id="detail" className="detail-border   ">

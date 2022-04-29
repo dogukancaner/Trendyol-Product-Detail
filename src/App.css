@@ -439,3 +439,32 @@ span {
   margin-bottom: 10px;
   word-wrap: break-word;
 }
+.product-report {
+  border-radius: 6px;
+  border: solid 1px #e2e2e2;
+  background-color: #fff;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.report-icon{
+  margin-right: 10px;
+  color: #d21313;
+  font-size: 18px;
+}
+.report-content{
+  display: flex;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.report{
+  color: #d21313;
+    font-family: source_sans_prosemibold,serif;
+    font-size: 16px;
+}
+

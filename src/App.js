@@ -6,6 +6,7 @@ import ProductImage from "./components/product-details/product-images";
 import ProductRating from "./components/product-details/product-rating";
 import ProductSlider from "./components/product-details/product-slider";
 import ProductWidget from "./components/product-details/product-widgets";
+import ProductReport from "./components/product-details/product-report";
 
 const App = () => {
   const sliderObject = [
@@ -172,10 +173,11 @@ const App = () => {
             title="Bu Ürünü Alanlar Bunları da Aldı"
             data={sliderObjectTwo}
           />
-
           <ProductRating />
           <DetailBorder />
+          <ProductReport/>
         </div>
+     
       </div>
     </div>
   );
